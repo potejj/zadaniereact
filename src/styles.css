@@ -1,0 +1,155 @@
+/* Resetowanie domyślnych stylów */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Nowoczesna stylizacja paska nawigacyjnego */
+nav {
+  background-color: #1f2937;
+  padding: 15px 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Wyrównanie do prawej strony */
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a,
+nav ul li button {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 25px; /* Zaokrąglone przyciski */
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li button:hover {
+  background-color: #2563eb; /* Zmiana koloru przy hover */
+}
+
+/* Układ strony głównej */
+.main-content {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #1f2937;
+}
+
+.header p {
+  font-size: 1.25rem;
+  color: #6b7280;
+  margin-top: 10px;
+}
+
+/* Stylizacja kart */
+.card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px 0;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Przyciski na kartach */
+.card button {
+  display: block;
+  width: 100%;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #2563eb;
+}
+
+/* Formy logowania i rejestracji */
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #2563eb;
+}
+
+/* Stylizacja sekcji wykresu */
+.chart-container {
+  margin: 40px 0;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  color: #1f2937;
+}
+
